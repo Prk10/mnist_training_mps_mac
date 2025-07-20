@@ -1,0 +1,6 @@
+This repository contains all the necessary code to run a full training pipeline on a MAC mps.
+
+1. Start with requirements.txt
+2. mnist_training.py contains the full training loop. It also extracts the MNIST dataset
+3. mnist_test.py calculates the accuracy on test data.
+4. mnist_testImage.py can be used to obtain predictions about a single image
